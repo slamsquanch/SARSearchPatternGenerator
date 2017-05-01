@@ -1,0 +1,1 @@
+c:\users\billy-bob joe jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\SARSearchPatternGenerator\bin\Debug\SARSearchPatternGenerator.exe.config
