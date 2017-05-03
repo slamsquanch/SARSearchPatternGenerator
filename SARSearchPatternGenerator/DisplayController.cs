@@ -6,7 +6,7 @@ using System.Text;
 namespace SARSearchPatternGenerator
 {
     /*
-     * The DisplayController class controls the Display view, constructing a
+     * The DisplayController class controls the Display view, constructing a 
      * base DisplayController will create a default blank Display. This class
      * is meant to be extended by different controllers for different displays.
      */
@@ -15,7 +15,9 @@ namespace SARSearchPatternGenerator
         //The display that this object controls.
         private Display display;
         
-        //The default constructor for a DisplayController.
+        /*
+         * The default constructor for a DisplayController.
+         */
         public DisplayController()
         {
             display = new Display();

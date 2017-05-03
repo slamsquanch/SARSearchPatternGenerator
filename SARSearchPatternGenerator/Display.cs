@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace SARSearchPatternGenerator
 {
     /*
-     * The Display class is a panel with zero or more sections.
+     * The Display class is a panel with zero or more sections. 
      * It is meant to be added to the window as a panel to display
      * all the sections it contains.
      */
