@@ -16,10 +16,8 @@ namespace SARSearchPatternGenerator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
+            // Creates a WindowController object.  The created object will pull the trigger for the main window to run.
             WindowController wc = new WindowController();
-
-            //Application.Run(new Window());
         }
     }
 }
