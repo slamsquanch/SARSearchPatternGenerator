@@ -48,7 +48,7 @@ namespace SARSearchPatternGenerator
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // panel1  -Our main "Display panel!" taking up most of the main window.
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -59,7 +59,7 @@ namespace SARSearchPatternGenerator
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.displayPanel);
             // 
-            // toolStrip1
+            // toolStrip1  - Our toolbar :D
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -73,7 +73,7 @@ namespace SARSearchPatternGenerator
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // toolStripDropDownButton1
+            // toolStripDropDownButton1  -"File" dropdown menu on the toolbar.
             // 
             this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -85,14 +85,14 @@ namespace SARSearchPatternGenerator
             this.toolStripDropDownButton1.Text = "File";
             this.toolStripDropDownButton1.Click += new System.EventHandler(this.fileDropDown);
             // 
-            // textToolStripMenuItem
+            // textToolStripMenuItem   -"Open" button inside the "File" dropdown menu on the toolbar.
             // 
             this.textToolStripMenuItem.Name = "textToolStripMenuItem";
             this.textToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.textToolStripMenuItem.Text = "Open";
             this.textToolStripMenuItem.Click += new System.EventHandler(this.openFileButton);
             // 
-            // saveToolStripMenuItem
+            // saveToolStripMenuItem   -"Save" button inside the "File" dropdown menu on the toolbar.
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
@@ -104,7 +104,7 @@ namespace SARSearchPatternGenerator
             this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
             this.toolStripDropDownButton2.Size = new System.Drawing.Size(14, 24);
             // 
-            // toolStripDropDownButton3
+            // toolStripDropDownButton3  -"Format" button on the toolbar
             // 
             this.toolStripDropDownButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripDropDownButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton3.Image")));
@@ -114,7 +114,7 @@ namespace SARSearchPatternGenerator
             this.toolStripDropDownButton3.Text = "Format";
             this.toolStripDropDownButton3.Click += new System.EventHandler(this.formatDropDown);
             // 
-            // toolStripDropDownButton4
+            // toolStripDropDownButton4  -"About" button on the toolbar.
             // 
             this.toolStripDropDownButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton4.Image")));
             this.toolStripDropDownButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -123,35 +123,35 @@ namespace SARSearchPatternGenerator
             this.toolStripDropDownButton4.Text = "About";
             this.toolStripDropDownButton4.Click += new System.EventHandler(this.aboutButton);
             // 
-            // cutToolStripMenuItem
+            // cutToolStripMenuItem  -Cut button that's inside the "Edit" dropdown menu.
             // 
             this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
             this.cutToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.cutToolStripMenuItem.Text = "Cut";
             this.cutToolStripMenuItem.Click += new System.EventHandler(this.cutEditButton);
             // 
-            // copyToolStripMenuItem
+            // copyToolStripMenuItem  -Copy button that's inside the "Edit" dropdown menu.
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.copyToolStripMenuItem.Text = "Copy";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyEditButton);
             // 
-            // pasteToolStripMenuItem
+            // pasteToolStripMenuItem  -Paste button that's inside the "Edit" dropdown menu.
             // 
             this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
             this.pasteToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.pasteToolStripMenuItem.Text = "Paste";
             this.pasteToolStripMenuItem.Click += new System.EventHandler(this.pasteEditButton);
             // 
-            // deleteToolStripMenuItem
+            // deleteToolStripMenuItem   -"Delete" button that's inside the "Edit" dropdown menu.
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
             this.deleteToolStripMenuItem.Size = new System.Drawing.Size(128, 26);
             this.deleteToolStripMenuItem.Text = "Delete";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteEditButton);
             // 
-            // Window
+            // Window...OUR MAIN WINDOW :D
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
