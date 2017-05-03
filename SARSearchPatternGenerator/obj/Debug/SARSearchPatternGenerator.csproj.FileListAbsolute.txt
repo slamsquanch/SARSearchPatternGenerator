@@ -7,4 +7,3 @@ C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\S
 C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.csproj.GenerateResource.Cache
 C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.exe
 C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.pdb
-C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.csprojResolveAssemblyReference.cache

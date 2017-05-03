@@ -108,16 +108,7 @@ namespace SARSearchPatternGenerator
 
         }
 
-
-        /*
-         *  The "Format" drop down from the toolbar menu.
-        */
-        private void formatDropDown(object sender, EventArgs e)
-        {
-
-        }
-
-
+ 
         /*
          *  The "About" drop down from the toolbar menu.
          */
@@ -125,5 +116,6 @@ namespace SARSearchPatternGenerator
         {
 
         }
+
     }
 }
