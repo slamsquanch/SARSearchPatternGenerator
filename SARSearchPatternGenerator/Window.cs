@@ -25,7 +25,23 @@ namespace SARSearchPatternGenerator
 
         private void Window_Load(object sender, EventArgs e)
         {
+        }
 
+        private void setDisplay(UserControl uc)
+        {
+            if (this.display != null)
+            {
+                this.Controls.Remove(this.display);
+            }
+            this.display = uc;
+            this.display.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.display.Location = new System.Drawing.Point(12, 30);
+            this.display.Name = "display";
+            this.display.Size = new System.Drawing.Size(831, 409);
+            this.display.TabIndex = 4;
+            this.Controls.Add(this.display);
         }
 
 
@@ -117,5 +133,25 @@ namespace SARSearchPatternGenerator
 
         }
 
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PatternDisplay d = new PatternDisplay();
+            setDisplay(d);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
