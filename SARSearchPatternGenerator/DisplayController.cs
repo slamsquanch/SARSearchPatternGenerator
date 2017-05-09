@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 
 namespace SARSearchPatternGenerator
 {
@@ -13,23 +14,22 @@ namespace SARSearchPatternGenerator
     public class DisplayController
     {
         //The display that this object controls.
-        private Display display;
         
         /*
          * The default constructor for a DisplayController.
          */
         public DisplayController()
         {
-            display = new Display();
         }
 
         /*
          * @return - Returns the Display this object
          *           controls. 
          */
-        public Display getDisplay()
+         /*
+        public UserControl getDisplay()
         {
-            return display;
         }
+        */
     }
 }
