@@ -144,6 +144,7 @@ namespace SARSearchPatternGenerator
             this.label3.Size = new System.Drawing.Size(124, 17);
             this.label3.TabIndex = 2;
             this.label3.Text = "Distance Covered:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox1
             // 
@@ -158,6 +159,7 @@ namespace SARSearchPatternGenerator
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 6;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox2
             // 
@@ -187,6 +189,16 @@ namespace SARSearchPatternGenerator
         }
 
         private void tableLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

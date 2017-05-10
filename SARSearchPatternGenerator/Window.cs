@@ -153,5 +153,10 @@ namespace SARSearchPatternGenerator
         {
 
         }
+
+        private void display_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

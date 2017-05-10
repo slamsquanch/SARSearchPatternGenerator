@@ -197,6 +197,7 @@ namespace SARSearchPatternGenerator
             this.display.Name = "display";
             this.display.Size = new System.Drawing.Size(831, 409);
             this.display.TabIndex = 4;
+            this.display.Load += new System.EventHandler(this.display_Load);
             // 
             // Window
             // 
