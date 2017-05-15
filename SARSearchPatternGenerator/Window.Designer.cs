@@ -51,6 +51,7 @@ namespace SARSearchPatternGenerator
             this.label5 = new System.Windows.Forms.Label();
             this.display = new System.Windows.Forms.UserControl();
             this.patternDisplay1 = new SARSearchPatternGenerator.PatternDisplay();
+            this.inputUnits1 = new SARSearchPatternGenerator.InputUnits();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -203,14 +204,22 @@ namespace SARSearchPatternGenerator
             // 
             this.patternDisplay1.Location = new System.Drawing.Point(18, 30);
             this.patternDisplay1.Name = "patternDisplay1";
-            this.patternDisplay1.Size = new System.Drawing.Size(716, 612);
+            this.patternDisplay1.Size = new System.Drawing.Size(566, 612);
             this.patternDisplay1.TabIndex = 7;
+            // 
+            // inputUnits1
+            // 
+            this.inputUnits1.Location = new System.Drawing.Point(604, 61);
+            this.inputUnits1.Name = "inputUnits1";
+            this.inputUnits1.Size = new System.Drawing.Size(654, 578);
+            this.inputUnits1.TabIndex = 8;
             // 
             // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1339, 740);
+            this.Controls.Add(this.inputUnits1);
             this.Controls.Add(this.patternDisplay1);
             this.Controls.Add(this.display);
             this.Controls.Add(this.label5);
@@ -247,5 +256,6 @@ namespace SARSearchPatternGenerator
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.UserControl display;
         private PatternDisplay patternDisplay1;
+        private InputUnits inputUnits1;
     }
 }
