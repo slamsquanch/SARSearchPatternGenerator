@@ -142,10 +142,10 @@ namespace SARSearchPatternGenerator
             // 
             // toolStripDropDownButton4
             // 
-            this.toolStripDropDownButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton4.Image")));
+            this.toolStripDropDownButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.toolStripDropDownButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton4.Name = "toolStripDropDownButton4";
-            this.toolStripDropDownButton4.Size = new System.Drawing.Size(84, 24);
+            this.toolStripDropDownButton4.Size = new System.Drawing.Size(64, 24);
             this.toolStripDropDownButton4.Text = "About";
             this.toolStripDropDownButton4.Click += new System.EventHandler(this.aboutButton);
             // 
@@ -179,6 +179,8 @@ namespace SARSearchPatternGenerator
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label5.AutoEllipsis = true;
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label5.Location = new System.Drawing.Point(15, 442);
