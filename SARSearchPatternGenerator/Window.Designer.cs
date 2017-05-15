@@ -50,6 +50,7 @@ namespace SARSearchPatternGenerator
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.label5 = new System.Windows.Forms.Label();
             this.display = new System.Windows.Forms.UserControl();
+            this.patternDisplay1 = new SARSearchPatternGenerator.PatternDisplay();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +63,7 @@ namespace SARSearchPatternGenerator
             this.toolStripDropDownButton4});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(855, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(1339, 27);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -195,15 +196,23 @@ namespace SARSearchPatternGenerator
             | System.Windows.Forms.AnchorStyles.Right)));
             this.display.Location = new System.Drawing.Point(12, 30);
             this.display.Name = "display";
-            this.display.Size = new System.Drawing.Size(831, 409);
+            this.display.Size = new System.Drawing.Size(1315, 685);
             this.display.TabIndex = 4;
             this.display.Load += new System.EventHandler(this.display_Load);
+            // 
+            // patternDisplay1
+            // 
+            this.patternDisplay1.Location = new System.Drawing.Point(18, 46);
+            this.patternDisplay1.Name = "patternDisplay1";
+            this.patternDisplay1.Size = new System.Drawing.Size(275, 574);
+            this.patternDisplay1.TabIndex = 7;
             // 
             // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(855, 464);
+            this.ClientSize = new System.Drawing.Size(1339, 740);
+            this.Controls.Add(this.patternDisplay1);
             this.Controls.Add(this.display);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.toolStrip1);
@@ -238,6 +247,6 @@ namespace SARSearchPatternGenerator
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.UserControl display;
+        private PatternDisplay patternDisplay1;
     }
 }
-

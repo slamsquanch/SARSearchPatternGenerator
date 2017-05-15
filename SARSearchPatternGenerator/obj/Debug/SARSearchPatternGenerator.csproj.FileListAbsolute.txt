@@ -17,4 +17,8 @@ D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug
 D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.Window.resources
 D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.csproj.GenerateResource.Cache
 D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.PatternDisplay.resources
+<<<<<<< HEAD
 C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.PatternDisplay.resources
+=======
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.InputGroup.resources
+>>>>>>> ec12cc4a81f6ba9901bd12e18d6cc02ea10c9be0
