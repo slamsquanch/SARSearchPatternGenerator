@@ -50,8 +50,8 @@ namespace SARSearchPatternGenerator
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.label5 = new System.Windows.Forms.Label();
             this.display = new System.Windows.Forms.UserControl();
-            this.inputUnits1 = new SARSearchPatternGenerator.InputUnits();
             this.patternDisplay1 = new SARSearchPatternGenerator.PatternDisplay();
+            this.inputUnits1 = new SARSearchPatternGenerator.InputUnits();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -201,19 +201,19 @@ namespace SARSearchPatternGenerator
             this.display.TabIndex = 4;
             this.display.Load += new System.EventHandler(this.display_Load);
             // 
-            // inputUnits1
-            // 
-            this.inputUnits1.Location = new System.Drawing.Point(663, 30);
-            this.inputUnits1.Name = "inputUnits1";
-            this.inputUnits1.Size = new System.Drawing.Size(676, 578);
-            this.inputUnits1.TabIndex = 6;
-            // 
             // patternDisplay1
             // 
             this.patternDisplay1.Location = new System.Drawing.Point(18, 46);
             this.patternDisplay1.Name = "patternDisplay1";
-            this.patternDisplay1.Size = new System.Drawing.Size(619, 574);
+            this.patternDisplay1.Size = new System.Drawing.Size(275, 574);
             this.patternDisplay1.TabIndex = 7;
+            // 
+            // inputUnits1
+            // 
+            this.inputUnits1.Location = new System.Drawing.Point(663, 30);
+            this.inputUnits1.Name = "inputUnits1";
+            this.inputUnits1.Size = new System.Drawing.Size(644, 578);
+            this.inputUnits1.TabIndex = 6;
             // 
             // Window
             // 
