@@ -29,6 +29,7 @@ namespace SARSearchPatternGenerator
 
         private void setDisplay(UserControl uc)
         {
+            this.SuspendLayout();
             if (this.display != null)
             {
                 this.Controls.Remove(this.display);
@@ -37,13 +38,14 @@ namespace SARSearchPatternGenerator
             this.display.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
+            //this.display.Size = new System.Drawing.Size(831, 409);
             this.display.Location = new System.Drawing.Point(12, 30);
             this.display.Name = "display";
-            this.display.Size = new System.Drawing.Size(831, 409);
             this.display.TabIndex = 4;
             this.Controls.Add(this.display);
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
-
 
         /*
          *  The Display panel contained inside of our main window.
@@ -150,11 +152,6 @@ namespace SARSearchPatternGenerator
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void display_Load(object sender, EventArgs e)
         {
 
         }
