@@ -12,15 +12,16 @@ namespace SARSearchPatternGenerator
     public class PatternDisplay : UserControl
     {
         private PictureBox pictureBox1;
-        private TableLayoutPanel tableLayoutPanel2;
         private TableLayoutPanel tableLayoutPanel3;
         private Label label1;
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
         private TextBox textBox3;
         private TextBox textBox2;
-        private Label label4;
+        private TextBox textBox1;
+        private TableLayoutPanel tableLayoutPanel2;
+
+        //private Label label4;
         private ComboBox comboBox1;
         private TableLayoutPanel tableLayoutPanel1;
 
@@ -31,8 +32,9 @@ namespace SARSearchPatternGenerator
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PatternDisplay));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,46 +42,40 @@ namespace SARSearchPatternGenerator
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
+            //this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.09576F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.90424F));
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 6);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(637, 306);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(348, 544);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // tableLayoutPanel2
+            // pictureBox1
             // 
-            this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.33333F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.66667F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(293, 300);
-            this.tableLayoutPanel2.TabIndex = 2;
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(796, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(319, 538);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // tableLayoutPanel3
             // 
@@ -92,6 +88,7 @@ namespace SARSearchPatternGenerator
             this.tableLayoutPanel3.Controls.Add(this.textBox3, 1, 2);
             this.tableLayoutPanel3.Controls.Add(this.textBox2, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.textBox1, 1, 0);
+            //this.tableLayoutPanel3.Controls.Add(this.comboBox1, 1, 3);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 4;
@@ -105,7 +102,7 @@ namespace SARSearchPatternGenerator
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(287, 158);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(309, 183);
             this.tableLayoutPanel3.TabIndex = 1;
             this.tableLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint);
             // 
@@ -122,7 +119,7 @@ namespace SARSearchPatternGenerator
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 22);
+            this.label2.Location = new System.Drawing.Point(3, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 17);
             this.label2.TabIndex = 1;
@@ -132,7 +129,7 @@ namespace SARSearchPatternGenerator
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 43);
+            this.label3.Location = new System.Drawing.Point(3, 68);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 17);
             this.label3.TabIndex = 2;
@@ -141,7 +138,7 @@ namespace SARSearchPatternGenerator
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(148, 46);
+            this.textBox3.Location = new System.Drawing.Point(160, 71);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
             this.textBox3.TabIndex = 6;
@@ -149,7 +146,7 @@ namespace SARSearchPatternGenerator
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(148, 25);
+            this.textBox2.Location = new System.Drawing.Point(160, 38);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 5;
@@ -157,49 +154,42 @@ namespace SARSearchPatternGenerator
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(148, 3);
+            this.textBox1.Location = new System.Drawing.Point(160, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 4;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(302, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(332, 300);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // comboBox1
             // 
-            this.comboBox1.Location = new System.Drawing.Point(0, 0);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 25);
-            this.comboBox1.TabIndex = 0;
+            //initializeComboBox();
             // 
-            // label4
+            // tableLayoutPanel2
             // 
-            this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 23);
-            this.label4.TabIndex = 0;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 6);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35.13011F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 64.86989F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(787, 538);
+            this.tableLayoutPanel2.TabIndex = 2;
             // 
             // PatternDisplay
             // 
+            this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "PatternDisplay";
-            this.Size = new System.Drawing.Size(643, 312);
+            this.Size = new System.Drawing.Size(1264, 574);
             this.Load += new System.EventHandler(this.PatternDisplay_Load);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -260,35 +250,40 @@ namespace SARSearchPatternGenerator
         /*
          *  Takes in a string passed from the unit dropdown function and changes the units label based on that.
          */
-        private void changeUnitText(String s)
-        {
-            switch (s)
-            {
-                case "nautical miles":
-                    this.label4.Text = "nm";
-                    break;
-                case "miles":
-                    this.label4.Text = "mi";
-                    break;
-                case "feet":
-                    this.label4.Text = "ft";
-                    break;
-                case "kilometres":
-                    this.label4.Text = "km";
-                    break;
-                case "metres":
-                    this.label4.Text = "metres";
-                    break;
+        /* private void changeUnitText(String s) {
+             switch (s)
+             {
+                 case "nautical miles":
+                     this.label4.Text = "nm";
+                     break;
+                 case "miles":
+                     this.label4.Text = "mi";
+                     break;
+                 case "feet":
+                     this.label4.Text = "ft";
+                     break;
+                 case "kilometres":
+                     this.label4.Text = "km";
+                     break;
+                 case "metres":
+                     this.label4.Text = "metres";
+                     break;
 
-            }
+             }
 
-        }
+         }*/
 
         //Units label.
         private void label4_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void inputUnits1_Load(object sender, EventArgs e)
+        {
+
+        }
+
 
 
         /*
@@ -297,7 +292,7 @@ namespace SARSearchPatternGenerator
         private void initializeComboBox()
         {
             string[] units = new string[]{"nautical miles", "miles",
-            "feet", "kilometres", "metres"};
+             "feet", "kilometres", "metres"};
 
             comboBox1.Items.AddRange(units);
             this.comboBox1.MaxDropDownItems = 5;
@@ -321,8 +316,8 @@ namespace SARSearchPatternGenerator
             //string selectedUnitSystem = (string)comboBox1.SelectedItem;
 
             string selected = this.comboBox1.GetItemText(this.comboBox1.SelectedItem);
-            MessageBox.Show(selected);
-            changeUnitText(selected);
+            //MessageBox.Show(selected);
+            //changeUnitText(selected);
 
             //int count = 0;
             //int resultIndex = -1;
