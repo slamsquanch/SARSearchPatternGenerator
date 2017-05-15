@@ -74,6 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DisplayController.cs" />
+    <Compile Include="InputUnits.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="PatternController.cs" />
     <Compile Include="PatternDisplay.cs">
       <SubType>UserControl</SubType>
@@ -87,6 +90,9 @@
       <DependentUpon>Window.cs</DependentUpon>
     </Compile>
     <Compile Include="WindowController.cs" />
+    <EmbeddedResource Include="InputUnits.resx">
+      <DependentUpon>InputUnits.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PatternDisplay.resx">
       <DependentUpon>PatternDisplay.cs</DependentUpon>
     </EmbeddedResource>
